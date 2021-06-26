@@ -103,6 +103,18 @@ nav{
      line-height: 100px;
 }
 
+nav a{
+     transition: 0.4s ease;
+     border-bottom: 4px solid seagreen;
+     padding-bottom: 20px;
+}
+
+nav a:hover{
+     border-bottom: 4px solid #ffffff;
+     padding-bottom: 6px; 
+}
+
+
 .categoryGallery{
      height: 350px;
 }
@@ -120,7 +132,8 @@ nav{
 }
 
 .categoryGallery img{
-     max-width: 85%;
+     max-width: 90%;
+     flex-grow: 1;
 }
 
 /*---------------------------------------------------*/
