@@ -156,9 +156,9 @@ nav a:hover{
      padding-top: 5em;
 }
 
-.exampleTeaser img{
+.exampleTeaser > img{
      float: left;
-     height: 300px;
+
      width: 300px;
      margin: 1em;
 }
