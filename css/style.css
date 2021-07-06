@@ -153,18 +153,23 @@ nav a:hover{
 }
 
 .exampleTeaser section{
-     padding-top: 5em;
+     display: inline-block;
+     vertical-align: middle;
+     width: 60%;
 }
 
 .exampleTeaser > img{
-     float: left;
-
-     width: 300px;
+     /* float: left; */
+     display: inline-block;
+     vertical-align: middle;
+     width: 33%;
      margin: 1em;
 }
 
 .alternate img{
-     float: right;
+     /* float: right; */
+     display: inline-block;
+     vertical-align: middle;
 }
 
 .alternate{
